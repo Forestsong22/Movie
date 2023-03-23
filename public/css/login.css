@@ -1,0 +1,10 @@
+#loginform{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-top: 300px;
+    width: 20%;
+    margin-left: 40%;
+    align-content:center;
+    text-align: center;
+}

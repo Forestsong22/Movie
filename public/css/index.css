@@ -1,0 +1,13 @@
+#carouselExampleFade {
+    background-color: black;
+    width: 500px;
+}
+
+#images{
+    margin: auto;
+    font-size: 0px;
+}
+
+.image {
+    width: 20%;
+}

@@ -1,0 +1,18 @@
+.moviename {
+    background-color: black;
+    color:white;    
+}
+
+.movieoverview {
+    background-color: black;
+    color:white;    
+}
+
+.movieposter {
+    background-color: black;
+    color:white;    
+}
+
+p {
+    font-size: 12px;
+}

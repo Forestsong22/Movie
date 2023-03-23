@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+<body>
+    {% include 'nav.html' %}   
+    {% for i in movieinfo %}
+    <h1>{{ i.title }}</h1>
+    <p>{{ i.overview }}</p>
+    <p><img src="{{ i.image }}" /></p>
+    {% endfor %}
+</body>
+</html>
